@@ -43,16 +43,9 @@ p {
 	font-size: 2.5em;
 	font-weight: 700;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	margin-bottom: -6px;
 	padding: 10px 0 0 0;
 	color: #2b4b4e;
-}
-
-#name h2 {
-	font-size: 2em;
-	margin-left: 2px;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	color: #2b4b4e;
+	padding: 25px 0 0 0;
 }
 
 #mainArea {
@@ -78,7 +71,7 @@ p {
 
 #contactDetails {
 	text-align: right;
-	padding: 13px 0 0 0;
+	padding: 14px 0 0 0;
 	float: right;
 }
 

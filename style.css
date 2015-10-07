@@ -111,7 +111,7 @@
  	padding: 0 2px 0 2px;
  }
 
-#linkedin {
+ .favicon {
     position: relative;
     float: left;
     padding: 1px;
@@ -119,7 +119,10 @@
     width: 36px;
     height: 36px;
     background: url("SocialMedia/spritesheet2.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 	
+ }
+
+#linkedin {
     background-position: -267px 1px;
 }
 
@@ -128,14 +131,6 @@
 }
 
  #github {
-    position: relative;
-    float: left;
-    padding: 1px;
-    margin: 1px;
-    width: 36px;
-    height: 36px;
-    background: url("SocialMedia/spritesheet2.png");
-    background-repeat: no-repeat;
     background-position: -115px 1px;
 }
 
@@ -144,14 +139,6 @@
 }
 
 #facebook {
-    position: relative;
-    float: left;
-    padding: 1px;
-    margin: 1px;
-    width: 36px;
-    height: 36px;
-    background: url("SocialMedia/spritesheet2.png");
-    background-repeat: no-repeat;
     background-position: -39px 1px;
 }
 
@@ -160,14 +147,6 @@
 }
 
 #google {
-    position: relative;
-    float: left;
-    padding: 1px;
-    margin: 1px;
-    width: 36px;
-    height: 36px;
-    background: url("SocialMedia/spritesheet2.png");
-    background-repeat: no-repeat;
     background-position: -191px 1px;
 }
 
@@ -176,14 +155,6 @@
 }
 
 #twitter {
-    position: relative;
-    float: left;
-    padding: 1px;
-    margin: 1px;
-    width: 36px;
-    height: 36px;
-    background: url("SocialMedia/spritesheet2.png");
-    background-repeat: no-repeat;
     background-position: -419px 1px;
 }
 
@@ -192,14 +163,6 @@
 }
 
 #researchgate {
-    position: relative;
-    float: left;
-    padding: 1px;
-    margin: 1px;
-    width: 36px;
-    height: 36px;
-    background: url("SocialMedia/spritesheet2.png");
-    background-repeat: no-repeat;
     background-position: -343px 1px;
 }
 

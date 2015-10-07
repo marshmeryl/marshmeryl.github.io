@@ -74,6 +74,7 @@
  	font-size: 65px;
  	margin: 30px 0px 30px 4px;
  	text-align: left;
+ 	padding: 10px 0 10px 0;
  }
 
  h3  {
@@ -100,7 +101,7 @@
  	font-weight: bold;
  }
 
- div  {
+ div {
  	display: inline-block;
  	padding: 10px;
  	line-height: 25px;
@@ -109,3 +110,99 @@
  .hov {
  	padding: 0 2px 0 2px;
  }
+
+#linkedin {
+    position: relative;
+    float: left;
+    padding: 1px;
+    margin: 1px;
+    width: 36px;
+    height: 36px;
+    background: url("SocialMedia/spritesheet2.png");
+    background-repeat: no-repeat;
+    background-position: -267px 1px;
+}
+
+#linkedin:hover {
+    background-position: -229px 1px;
+}
+
+ #github {
+    position: relative;
+    float: left;
+    padding: 1px;
+    margin: 1px;
+    width: 36px;
+    height: 36px;
+    background: url("SocialMedia/spritesheet2.png");
+    background-repeat: no-repeat;
+    background-position: -115px 1px;
+}
+
+#github:hover {
+    background-position: -77px 1px;
+}
+
+#facebook {
+    position: relative;
+    float: left;
+    padding: 1px;
+    margin: 1px;
+    width: 36px;
+    height: 36px;
+    background: url("SocialMedia/spritesheet2.png");
+    background-repeat: no-repeat;
+    background-position: -39px 1px;
+}
+
+#facebook:hover {
+    background-position: -1px 1px;
+}
+
+#google {
+    position: relative;
+    float: left;
+    padding: 1px;
+    margin: 1px;
+    width: 36px;
+    height: 36px;
+    background: url("SocialMedia/spritesheet2.png");
+    background-repeat: no-repeat;
+    background-position: -191px 1px;
+}
+
+#google:hover {
+    background-position: -153px 1px;
+}
+
+#twitter {
+    position: relative;
+    float: left;
+    padding: 1px;
+    margin: 1px;
+    width: 36px;
+    height: 36px;
+    background: url("SocialMedia/spritesheet2.png");
+    background-repeat: no-repeat;
+    background-position: -419px 1px;
+}
+
+#twitter:hover {
+    background-position: -381px 1px;
+}
+
+#researchgate {
+    position: relative;
+    float: left;
+    padding: 1px;
+    margin: 1px;
+    width: 36px;
+    height: 36px;
+    background: url("SocialMedia/spritesheet2.png");
+    background-repeat: no-repeat;
+    background-position: -343px 1px;
+}
+
+#researchgate:hover {
+    background-position: -305px 1px;
+}

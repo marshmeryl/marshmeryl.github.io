@@ -2,59 +2,27 @@
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
-	<title></title>
-	<link rel="stylesheet" href="">
-	<meta name=viewport content='width=700'>
+	<title>Marshmeryl</title>
+	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+	<link href="style.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="favicon.ico"/>
 </head>
-<body>
-	<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Marshmeryl</title>
-		<link href="style.css" rel="stylesheet" />
-		<link rel="shortcut icon" href="favicon.ico"/>
-		<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script type='text/javascript'>
-		$(document).ready(function(){  
-			$(".hov").hover(function() {  
-				$(this).attr("src",function() { return this.src.substring(0,this.src.length-9)+ '.png'});  
-			}, function() {  
-				$(this).attr("src",function() { return this.src.substring(0,this.src.length-4)+ '_orig.png'});  
-			});  
-		});
-		</script>
-	</head>
-	<body id = "background">
-		<div id="main">
-			<h1 id="header"><b>Marshmeryl</b></h1>
-			<h3>Web Developer Noob</h2>
-				<p>I'm an ex cognitive neuroscience researcher from Bulgaria turned aspiring Web Developer.</p>
-				<p>You can check out my tl;dr resume <a href="Resume/resume-tldr-index.html" target="_BLANK">here</a>. The long version is <a href="Resume/resume-index.html" target="_BLANK">here</a>.</p>
-				<p>Stalk me to your heart's desire at various social media and professional networks!</p>
-				<div class="social-media">
-					<a href="http://www.github.com/marshmeryl" target="_BLANK">
-						<img class="hov" src="SocialMedia\github_orig.png" alt="LinkedIn" style="width:36px;height:36px;">
-					</a>
-					<a href="https://bg.linkedin.com/in/merylvaradinov" target="_BLANK">
-						<img class="hov" src="SocialMedia\linkedin_orig.png" alt="LinkedIn" style="width:36px;height:36px;">
-					</a>
-					<a href="http://www.twitter.com/marshmurli" target="_BLANK">
-						<img class="hov" src="SocialMedia\twitter_orig.png" alt="Twitter" style="width:36px;height:36px;">
-					</a>
-					<a href="http://www.facebook.com/marshmurli" target="_BLANK">
-						<img class="hov" src="SocialMedia\facebook_orig.png" alt="Facebook" style="width:36px;height:36px;">
-					</a>
-					<a href="https://plus.google.com/u/0/112131521290624215633" target="_BLANK">
-						<img class="hov" src="SocialMedia\googleplus_orig.png" alt="GooglePlus" style="width:36px;height:36px;">
-					</a>
-					<a href="https://www.researchgate.net/profile/Meryl_Varadinov" target="_BLANK">
-						<img class="hov" src="SocialMedia\researchgate_orig.png" alt="ResearchGate" style="width:36px;height:36px;">
-					</a>
-				</div>
+<body id = "background">
+	<div id="main">
+		<h1 id="header">Marshmeryl</h1>
+		<h3>Web Developer Noob</h2>
+			<p>I'm an ex cognitive neuroscience researcher from Bulgaria turned aspiring Web Developer.</p>
+			<p>You can check out my tl;dr resume <a href="Resume/resume-tldr-index.html" target="_BLANK">here</a>. The long version is <a href="Resume/resume-index.html" target="_BLANK">here</a>.</p>
+			<p>Stalk me to your heart's desire at various social media and professional networks!</p>
+			<div class="social-media">
+				<a href="https://bg.linkedin.com/in/merylvaradinov" target="_BLANK"><div id="linkedin"></div></a>
+				<a href="http://www.github.com/marshmeryl" target="_BLANK"><div id="github"></div></a>
+				<a href="http://www.facebook.com/marshmurli" target="_BLANK"><div id="facebook"></div></a>
+				<a href="https://plus.google.com/u/0/112131521290624215633" target="_BLANK"><div id="google"></div></a>
+				<a href="http://www.twitter.com/marshmurli" target="_BLANK"><div id="twitter"></div></a>
+				<a href="https://www.researchgate.net/profile/Meryl_Varadinov" target="_BLANK"><div id="researchgate"></div></a>
 			</div>
 		</div>
-	</body>
-	</html>
+	</div>
 </body>
 </html>

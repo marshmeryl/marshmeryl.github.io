@@ -46,7 +46,13 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 
 input, select { vertical-align: middle; }
 
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 body {
+    max-width: 100%;
     color: #252525;
     font-family: Georgia, serif;
     background: url("brainsss.jpg") repeat fixed center center / cover rgba(255, 255, 255, 0.9);
@@ -171,6 +177,6 @@ a {
         width: 85%;
     }
     h1 {
-        font-size: 55px;
+        font-size: 48px;
     }
 }

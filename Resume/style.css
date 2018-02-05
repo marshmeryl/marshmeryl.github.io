@@ -301,4 +301,7 @@ section:last-child {
 	.sectionTitle h1 {
 		text-align: left;
 	}
+	.mainDetails {
+		display: block;
+	}
 }

@@ -122,14 +122,14 @@ section:last-child {
 	float: right;
 	width: 72.5%;
 }
-.sectionTitle h1 {
+.sectionTitle h2 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	color: #4d99a2;
 	text-align: right;
 	padding: 0 10px 0 0;
 }
-.sectionContent h2 {
+.sectionContent h3 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	margin-bottom: -2px;
